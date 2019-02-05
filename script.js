@@ -1,7 +1,5 @@
 // tests the script is being loaded
-//alert('test');
-//
-//$.noConflict();
-//jQuery(document).ready(function($){
-//    alert('jQuery is working');
-//}); 
+$.noConflict();
+jQuery(document).ready(function($) {
+  console.log("jQuery is working");
+});
